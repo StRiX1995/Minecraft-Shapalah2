@@ -1,0 +1,31 @@
+//Текущий игрок, который имеет контроль над деревнями; При загрузке однопользовательского мира (в том числе открытого в локальной сети), один игрок должен использовать текущий профиль Millénaire и контролировать все деревни, контролируемые миром.
+auto_convert_profiles=false
+
+//Радиус обычных деревень; Радиус обычных деревень (не Millénaire). По умолчанию: 90.
+village_radius=100
+
+//Generate villages with hamlets; Whether to generate villages with hamlets around them. Takes a lot of space!
+generate_hamlets=false
+
+//config.generate_travel_book_export.label; config.generate_travel_book_export.desc:
+generate_travel_book_export=false
+
+//Изучение книги путешествий; Будут ли "изучаться" сельские жители, здания и т. д.Описания в путевой книге путешествий раскрываются только после встречи с рассматриваемым пунктом.
+travel_book_learning=true
+
+//Создание справочных данных; Генерирует различные данные (colour лист, список товаров, информация об общих целях), полезные для создателей контента
+generate_help_data=false
+
+//config.ignore_resource_cost.label; config.ignore_resource_cost.desc:
+ignore_resource_cost=false
+
+//Unique random identifier to count unique players if statistics are enabled
+random_uid=3401479776601705472
+
+//Advancement completed for anonymous statistics
+advancements_creative=marcopolo,magellan
+
+//Advancement completed for anonymous statistics
+advancements_survival=firstcontact,cresus,summoningwand,amateurarchitect,thequest,maitreapenser,explorer,marcopolo,magellan,selfdefense,pantheon,darkside,scipio,cheers,hired,friendindeed,mp_neighbourtrade,rep_japanese,rep_inuits,rep_seljuk,rep_byzantines,rep_norman,rep_mayan,complete_norman,leader_norman
+
+validation=346191834
