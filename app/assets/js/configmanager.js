@@ -7,9 +7,12 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
-const dataPath = path.join(sysRoot, '.helioslauncher')
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
+const dataPath = path.join(launcherDir, '.helioslauncher')
+const MD5 = require('crypto-js/md5');
+
+console.log(dataPath)
 
 /**
  * Retrieve the absolute path of the launcher directory.
@@ -18,6 +21,9 @@ const launcherDir = require('@electron/remote').app.getPath('userData')
  */
 exports.getLauncherDirectory = function(){
     return launcherDir
+}
+exports.getLauncherDirectory2 = function(){
+    return dataPath
 }
 
 /**
@@ -397,6 +403,24 @@ exports.addMicrosoftAuthAccount = function(uuid, accessToken, name, mcExpires, m
             refresh_token: msRefreshToken,
             expires_at: msExpires
         }
+    }
+    return config.authenticationDatabase[uuid]
+}
+
+// "1c9da9e904444c89bda3187cb0f2f1f4": {
+// "username": "StRiX1995",
+// "userID": "StRiX1995",
+// "displayName": "StRiX1995",
+// "uuid": "1c9da9e904444c89bda3187cb0f2f1f4",
+// "type": "free",
+// "premiumAccount": false
+exports.addFreeAuthAccount = function(uuid, name) {
+    config.selectedAccount = uuid
+    config.authenticationDatabase[uuid] = {
+        type: 'free',
+        username: name.trim(),
+        uuid: uuid.trim(),
+        displayName: name.trim(),
     }
     return config.authenticationDatabase[uuid]
 }
@@ -790,4 +814,40 @@ exports.getAllowPrerelease = function(def = false){
  */
 exports.setAllowPrerelease = function(allowPrerelease){
     config.settings.launcher.allowPrerelease = allowPrerelease
+}
+
+
+exports.createUUID = function(name) {
+	if (typeof name !== 'string') {
+		throw new TypeError("'name' should be a string!");
+	}
+
+    const input = 'OfflinePlayer:' + name;
+    const hash = MD5(input);
+
+    // https://www.rfc-editor.org/rfc/rfc4122#section-4.3
+    const byteArray = [];
+    for (let i = 0; i < 16; i++) {
+        byteArray.push((hash.words[i >>> 2] >>> (24 - (i % 4) * 8)) & 0xff);
+    }
+
+    byteArray[6] = (byteArray[6] & 0x0f) | 0x30;
+    byteArray[8] = (byteArray[8] & 0x3f) | 0x80;
+    return splittedUUID(toHexString(byteArray))
+}
+
+function toHexString(byteArray) {
+	return byteArray
+		.map((byte) => ('0' + (byte & 0xff).toString(16)).slice(-2))
+		.join('');
+}
+
+function splittedUUID(uuid) {
+	return [
+		uuid.substring(0, 8),
+		uuid.substring(8, 12),
+		uuid.substring(12, 16),
+		uuid.substring(16, 20),
+		uuid.substring(20, 32),
+	].join('-');
 }

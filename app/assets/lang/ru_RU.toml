@@ -174,16 +174,16 @@ failureText = "See console (CTRL + Shift + i) for more details."
 okay = "Okay"
 
 [js.landing.selectedAccount]
-noAccountSelected = "No Account Selected"
+noAccountSelected = "Аккаунт не выбран"
 
 [js.landing.selectedServer]
 noSelection = "No Server Selected"
 loading = "Loading.."
 
 [js.landing.serverStatus]
-server = "SERVER"
-offline = "OFFLINE"
-players = "PLAYERS"
+server = "СЕРВЕР"
+offline = "ОФФЛАЙН"
+players = "ИГРОКИ"
 
 [js.landing.systemScan]
 checking = "Checking system info.."

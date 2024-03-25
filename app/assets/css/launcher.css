@@ -377,7 +377,7 @@ body, button {
 }
 
 /* Main login container. */
-#loginContainer {
+#loginContainer, #loginWithoutAccountContainer {
     position: relative;
     display: flex;
     justify-content: center;
@@ -389,14 +389,14 @@ body, button {
 }
 
 /* Login cancel button styles. */
-#loginCancelContainer {
+#loginCancelContainer, #loginWithoutCancelContainer {
     position: absolute;
     top: 5%;
     right: 5%;
 }
 
 /* Login cancel button styles. */
-#loginCancelButton {
+#loginCancelButton, #loginWithoutCancelButton {
     background: none;
     border: none;
     outline: none;
@@ -431,8 +431,37 @@ body, button {
     border-color: rgba(255, 255, 255, 0.75);
 }
 
+/* Login Without account cancel button */
+#loginWithoutCancelButton:hover #loginWithoutCancelIcon,
+#loginWithoutCancelButton:hover #loginWithoutCancelText,
+#loginWithoutCancelButton:focus #loginWithoutCancelIcon,
+#loginWithoutCancelButton:focus #loginWithoutCancelText {
+    text-shadow: 0px 0px 20px white;
+}
+#loginWithoutCancelButton:hover #loginWithoutCancelIcon,
+#loginWithoutCancelButton:focus #loginWithoutCancelIcon {
+    box-shadow: 0px 0px 20px white;
+}
+#loginWithoutCancelButton:active #loginWithoutCancelIcon,
+#loginWithoutCancelButton:active #loginWithoutCancelText {
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    border-color: rgba(255, 255, 255, 0.75);
+}
+#loginWithoutCancelButton:active #loginWithoutCancelIcon {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+#loginWithoutCancelButton:disabled {
+    pointer-events: none;
+}
+#loginWithoutCancelButton:disabled #loginWithoutCancelIcon,
+#loginWithoutCancelButton:disabled #loginWithoutCancelText {
+    color: rgba(255, 255, 255, 0.75);
+    border-color: rgba(255, 255, 255, 0.75);
+}
+
 /* The X in a circle icon for the cancel button. */
-#loginCancelIcon {
+#loginCancelIcon, #loginWithoutCancelIcon {
     border-radius: 50%;
     border: 1px solid white;
     box-sizing: border-box;
@@ -445,13 +474,13 @@ body, button {
     transition: 0.25s ease;
 }
 /* Text for the login cancel button. */
-#loginCancelText {
+#loginCancelText, #loginWithoutCancelText {
     font-size: 15px;
     transition: 0.25s ease;
 }
 
 /* Login content wrapper. */
-#loginContent {
+#loginContent, #loginWAContent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -460,7 +489,7 @@ body, button {
 }
 
 /* Login form. */
-#loginForm {
+#loginForm, #loginWithoutForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -485,7 +514,7 @@ body, button {
 }
 
 /* Logo on login form. */
-#loginImageSeal {
+#loginImageSeal, #loginWithoutImageSeal {
     border-radius: 50%;
     border: 2px solid #cad7e1;
     background: rgba(1, 2, 1, 0.5);
@@ -496,7 +525,7 @@ body, button {
 }
 
 /* Header on login view. */
-#loginSubheader {
+#loginSubheader, #loginWithoutSubheader {
     font-family: 'Avenir Medium';
     margin-bottom: 25px;
     font-size: 12px;
@@ -609,6 +638,87 @@ body, button {
 }
 
 /* Login button styles. */
+/* #loginButton, #loginWithoutButton {
+    background: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    padding: 15px 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    position: relative;
+    right: -20px;
+    transition: 0.5s ease;
+}
+#loginButton, #loginWithoutButton:disabled {
+    color: rgba(255, 255, 255, 0.75);
+    pointer-events: none;
+}
+#loginButton, #loginWithoutButton[loading] {
+    color: #fff;
+}
+#loginButton, #loginWithoutButton:hover,
+#loginButton, #loginWithoutButton:focus {
+    text-shadow: 0px 0px 20px #fff;
+    outline: none;
+}
+#loginButton, #loginWithoutButton:active {
+    color: #c7c7c7;
+    text-shadow:  0px 0px 20px #c7c7c7;
+}
+#loginSVG {
+    -webkit-transform: translate3d(0, 0, 0);
+    overflow: visible;
+    transform: rotate(90deg);
+    margin-left: 20px;
+    transition: 0.25s ease;
+    width: 20px;
+    height: 20px;
+}
+#loginSVG {
+    -webkit-transform: translate3d(0, 0, 0);
+    overflow: visible;
+    transform: rotate(90deg);
+    margin-left: 20px;
+    transition: 0.25s ease;
+    width: 20px;
+    height: 20px;
+}
+#loginButton, #loginWithoutButton:hover #loginSVG,
+#loginButton, #loginWithoutButton:focus #loginSVG {
+    -webkit-filter: drop-shadow(0px 0px 2px #fff);
+}
+#loginButton, #loginWithoutButton:active #loginSVG .arrowLine {
+    stroke: #c7c7c7;
+}
+#loginButton, #loginWithoutButton:active #loginSVG {
+    -webkit-filter: drop-shadow(0px 0px 2px #c7c7c7);
+}
+#loginButton, #loginWithoutButton:disabled #loginSVG .arrowLine {
+    stroke: rgba(255, 255, 255, 0.75);
+}
+
+#loginButton, #loginWithoutButton {
+    display: flex;
+    align-items: center;
+}
+
+#loginButton .circle-loader,
+#loginWithoutButton .circle-loader,
+#loginButton, #loginWithoutButton[loading] #loginSVG {
+    display: none;
+}
+#loginButton[loading] .circle-loader,
+#loginWithoutButton[loading] .circle-loader,
+
+#loginButton #loginSVG {
+    display: initial;
+}
+#loginWithoutButton #loginSVG {
+    display: initial;
+} */
+
+/* Login button styles. */
 #loginButton {
     background: none;
     font-weight: bold;
@@ -671,6 +781,73 @@ body, button {
 }
 #loginButton[loading] .circle-loader,
 #loginButton #loginSVG {
+    display: initial;
+}
+
+
+/* Login button styles. */
+#loginWithoutButton {
+    background: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    padding: 15px 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    position: relative;
+    right: -20px;
+    transition: 0.5s ease;
+}
+#loginWithoutButton:disabled {
+    color: rgba(255, 255, 255, 0.75);
+    pointer-events: none;
+}
+#loginWithoutButton[loading] {
+    color: #fff;
+}
+#loginWithoutButton:hover,
+#loginWithoutButton:focus {
+    text-shadow: 0px 0px 20px #fff;
+    outline: none;
+}
+#loginWithoutButton:active {
+    color: #c7c7c7;
+    text-shadow:  0px 0px 20px #c7c7c7;
+}
+#loginWithoutSVG {
+    -webkit-transform: translate3d(0, 0, 0);
+    overflow: visible;
+    transform: rotate(90deg);
+    margin-left: 20px;
+    transition: 0.25s ease;
+    width: 20px;
+    height: 20px;
+}
+#loginWithoutButton:hover #loginWithoutSVG,
+#loginWithoutButton:focus #loginWithoutSVG {
+    -webkit-filter: drop-shadow(0px 0px 2px #fff);
+}
+#loginWithoutButton:active #loginWithoutSVG .arrowLine {
+    stroke: #c7c7c7;
+}
+#loginWithoutButton:active #loginWithoutSVG {
+    -webkit-filter: drop-shadow(0px 0px 2px #c7c7c7);
+}
+#loginWithoutButton:disabled #loginWithoutSVG .arrowLine {
+    stroke: rgba(255, 255, 255, 0.75);
+}
+
+#loginWithoutButtonContent {
+    display: flex;
+    align-items: center;
+}
+
+#loginWithoutButton .circle-loader,
+#loginWithoutButton[loading] #loginWithoutSVG {
+    display: none;
+}
+#loginWithoutButton[loading] .circle-loader,
+#loginWithoutButton #loginWithoutSVG {
     display: initial;
 }
 
@@ -797,7 +974,7 @@ body, button {
 * * */
 
 /* Checkbox container. */
-#checkmarkContainer {
+#checkmarkContainer, #checkmarkWithoutContainer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -808,7 +985,7 @@ body, button {
 }
 
 /* Hide the default checkbox. */
-#checkmarkContainer input {
+#checkmarkContainer, #checkmarkWithoutContainer input {
     opacity: 0;
     cursor: pointer;
     position: absolute;
@@ -825,17 +1002,17 @@ body, button {
     transition: 0.25s ease;
 }
 /* On hover and focus, add a grey border color. */
-#checkmarkContainer:hover input ~ *,
-#checkmarkContainer input:focus ~ * {
+#checkmarkContainer, #checkmarkWithoutContainer:hover input ~ *,
+#checkmarkContainer, #checkmarkWithoutContainer input:focus ~ * {
     color: #a2a2a2;
     border-color: #a2a2a2;
 }
 /* On keydown, darken the checkbox a bit. */
-#checkmarkContainer input:active ~ *:not(#loginRememberText) {
+#checkmarkContainer, #checkmarkWithoutContainer input:active ~ *:not(#loginRememberText) {
     color: #8d8d8d;
     border-color: #8d8d8d;
 }
-#checkmarkContainer[disabled] {
+#checkmarkContainer, #checkmarkWithoutContainer[disabled] {
     pointer-events: none;
 }
 /* For checked -> #checkmarkContainer input:checked ~ * */
@@ -845,11 +1022,11 @@ body, button {
     display: none;
 }
 /* Show the checkmark when checked. */
-#checkmarkContainer input:checked ~ .loginCheckmark:after {
+#checkmarkContainer, #checkmarkWithoutContainer input:checked ~ .loginCheckmark:after {
     display: block;
 }
 /* Style the checkmark/indicator. */
-#checkmarkContainer .loginCheckmark:after {
+#checkmarkContainer, #checkmarkWithoutContainer .loginCheckmark:after {
     position: absolute;
     left: 3.5px;
     top: 0.5px;

@@ -1,0 +1,45 @@
+<div id="loginWithoutAccountContainer" style="display: none;">
+    <div id="loginWithoutCancelContainer" style>
+        <button id="loginWithoutCancelButton", >
+            <div id="loginWithoutCancelIcon">X</div>
+            <span id="loginWithoutCancelText"><%- lang('loginWithoutAccount.loginCancelText') %></span>
+        </button>
+    </div>
+    <div id="loginWAContent">
+        <form id="loginWithoutForm">
+            <img id="loginWithoutImageSeal" src="assets/images/SealCircle.png"/>
+            <span id="loginWithoutSubheader"><%- lang('loginWithoutAccount.loginSubheader') %></span>
+            <div class="loginFieldContainer">
+                <svg id="profileSVG" class="loginSVG" viewBox="40 37 65.36 61.43">
+                    <g>
+                        <path d="M86.77,58.12A13.79,13.79,0,1,0,73,71.91,13.79,13.79,0,0,0,86.77,58.12M97,103.67a3.41,3.41,0,0,0,3.39-3.84,27.57,27.57,0,0,0-54.61,0,3.41,3.41,0,0,0,3.39,3.84Z"/>
+                    </g>
+                </svg>
+                <input id="loginWithoutUsername" class="loginField" type="text" placeholder="<%- lang('loginWithoutAccount.loginEmailPlaceholder') %>"/>
+            </div>
+            <div id="loginOptions">
+                <label id="checkmarkWithoutContainer">
+                    <input id="loginRememberOption" type="checkbox" checked>
+                    <span id="loginRememberText" class="loginSpanDim"><%- lang('loginWithoutAccount.loginRememberMeText') %></span>
+                    <span class="loginCheckmark"></span>
+                </label>
+            </div>
+            <button id="loginWithoutButton" disabled>
+                <div id="loginWithoutButtonContent">
+                    <%- lang('loginWithoutAccount.loginButtonText') %>
+                    <svg id="loginSVG" viewBox="0 0 24.87 13.97">
+                        <defs>
+                            <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                        </defs>
+                        <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                    </svg>
+                    <div class="circle-loader">
+                        <div class="checkmark draw"></div>
+                    </div>
+                    <!-- <div class="spinningCircle" id="loginSpinner"></div> -->
+                </div>
+            </button>
+        </form>
+    </div>
+    <script src="./assets/js/scripts/loginWithoutAccount.js"></script>
+</div>

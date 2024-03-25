@@ -518,7 +518,7 @@ function processLogOut(val, isLastAccount){
         switchView(getCurrentView(), VIEWS.waiting, 500, 500, () => {
             ipcRenderer.send(MSFT_OPCODE.OPEN_LOGOUT, uuid, isLastAccount)
         })
-    } else {
+    } else if (targetAcc.type === 'mojang') {
         AuthManager.removeMojangAccount(uuid).then(() => {
             if(!isLastAccount && uuid === prevSelAcc.uuid){
                 const selAcc = ConfigManager.getSelectedAccount()
@@ -535,6 +535,31 @@ function processLogOut(val, isLastAccount){
         })
         $(parent).fadeOut(250, () => {
             parent.remove()
+        })
+    } else {
+        AuthManager.removeMicrosoftAccount(uuid)
+        .then(() => {
+            if(!isLastAccount && uuid === prevSelAcc.uuid){
+                const selAcc = ConfigManager.getSelectedAccount()
+                refreshAuthAccountSelected(selAcc.uuid)
+                updateSelectedAccount(selAcc)
+                validateSelectedAccount()
+            }
+            if(isLastAccount) {
+                loginOptionsCancelEnabled(false)
+                loginOptionsViewOnLoginSuccess = VIEWS.settings
+                loginOptionsViewOnLoginCancel = VIEWS.loginOptions
+                switchView(getCurrentView(), VIEWS.loginOptions)
+            }
+            if(msAccDomElementCache) {
+                msAccDomElementCache.remove()
+                msAccDomElementCache = null
+            }
+        })
+        .finally(() => {
+            if(!isLastAccount) {
+                switchView(getCurrentView(), VIEWS.settings, 500, 500)
+            }
         })
     }
 }

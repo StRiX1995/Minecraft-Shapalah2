@@ -18,6 +18,7 @@ const VIEWS = {
     landing: '#landingContainer',
     loginOptions: '#loginOptionsContainer',
     login: '#loginContainer',
+    loginWithoutAccount: '#loginWithoutAccountContainer',
     settings: '#settingsContainer',
     welcome: '#welcomeContainer',
     waiting: '#waitingContainer'
@@ -325,7 +326,7 @@ function mergeModConfiguration(o, n, nReq = false){
 
 async function validateSelectedAccount(){
     const selectedAcc = ConfigManager.getSelectedAccount()
-    if(selectedAcc != null){
+    if(selectedAcc != null && selectedAcc.type != 'free'){
         const val = await AuthManager.validateSelected()
         if(!val){
             ConfigManager.removeAuthAccount(selectedAcc.uuid)
@@ -337,6 +338,7 @@ async function validateSelectedAccount(){
                     ? Lang.queryJS('uibinder.validateAccount.failedMessage', { 'account': selectedAcc.displayName })
                     : Lang.queryJS('uibinder.validateAccount.failedMessageSelectAnotherAccount', { 'account': selectedAcc.displayName }),
                 Lang.queryJS('uibinder.validateAccount.loginButton'),
+                // Lang.queryJS('uibinder.validateAccount.loginWithoutButton'),
                 Lang.queryJS('uibinder.validateAccount.selectAnotherAccountButton')
             )
             setOverlayHandler(() => {

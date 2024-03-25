@@ -170,6 +170,19 @@ exports.addMojangAccount = async function(username, password) {
 const AUTH_MODE = { FULL: 0, MS_REFRESH: 1, MC_REFRESH: 2 }
 
 /**
+ * Add a free account
+ * 
+ * @param {string} username
+ * @returns {Promise.<Object>} Promise which resolves the resolved authenticated account object.
+ */
+exports.addFreeAccount = async function(username) {
+    let uuid = ConfigManager.createUUID(username)
+    let accountData = ConfigManager.addFreeAuthAccount(uuid, username)
+    ConfigManager.save()
+    return accountData
+}
+
+/**
  * Perform the full MS Auth flow in a given mode.
  * 
  * AUTH_MODE.FULL = Full authorization for a new account.

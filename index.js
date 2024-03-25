@@ -30,6 +30,7 @@ function initAutoUpdater(event, data) {
         autoUpdater.autoInstallOnAppQuit = false
         autoUpdater.updateConfigPath = path.join(__dirname, 'dev-app-update.yml')
     }
+    autoUpdater.autoDownload = false
     if(process.platform === 'darwin'){
         autoUpdater.autoDownload = false
     }
@@ -55,7 +56,7 @@ ipcMain.on('autoUpdateAction', (event, arg, data) => {
     switch(arg){
         case 'initAutoUpdater':
             console.log('Initializing auto updater.')
-            initAutoUpdater(event, data)
+            // initAutoUpdater(event, data)
             event.sender.send('autoUpdateNotification', 'ready')
             break
         case 'checkForUpdate':
@@ -244,6 +245,7 @@ function createWindow() {
         bkid: Math.floor((Math.random() * fs.readdirSync(path.join(__dirname, 'app', 'assets', 'images', 'backgrounds')).length)),
         lang: (str, placeHolders) => LangLoader.queryEJS(str, placeHolders)
     }
+
     Object.entries(data).forEach(([key, val]) => ejse.data(key, val))
 
     win.loadURL(pathToFileURL(path.join(__dirname, 'app', 'app.ejs')).toString())
