@@ -7,12 +7,12 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
-
 const launcherDir = require('@electron/remote').app.getPath('userData')
+
 const dataPath = path.join(launcherDir, '.helioslauncher')
+
 const MD5 = require('crypto-js/md5');
 
-console.log(dataPath)
 
 /**
  * Retrieve the absolute path of the launcher directory.
@@ -21,9 +21,6 @@ console.log(dataPath)
  */
 exports.getLauncherDirectory = function(){
     return launcherDir
-}
-exports.getLauncherDirectory2 = function(){
-    return dataPath
 }
 
 /**

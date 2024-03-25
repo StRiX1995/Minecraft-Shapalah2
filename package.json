@@ -44,5 +44,9 @@
     "electron": "^29.1.0",
     "electron-builder": "^24.13.3",
     "eslint": "^8.57.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StRiX1995/Mustela-updater.git"
   }
 }

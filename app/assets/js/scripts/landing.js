@@ -40,10 +40,6 @@ const launch_details_text     = document.getElementById('launch_details_text')
 const server_selection_button = document.getElementById('server_selection_button')
 const user_text               = document.getElementById('user_text')
 
-// *for test
-// const Configsa              = require('./assets/js/configmanager')
-// console.log(Configsa)
-
 const loggerLanding = LoggerUtil.getLogger('Landing')
 
 
@@ -488,7 +484,7 @@ async function dlAsync(login = true) {
         ConfigManager.getInstanceDirectory(),
         ConfigManager.getLauncherDirectory(),
         ConfigManager.getSelectedServer(),
-        // DistroAPI.isDevMode()
+        DistroAPI.isDevMode()
     )
 
     fullRepairModule.spawnReceiver()
@@ -619,20 +615,7 @@ async function dlAsync(login = true) {
 
             setLaunchDetails(Lang.queryJS('landing.dlAsync.doneEnjoyServer'))
 
-            // Init Discord Hook
-            console.log(distro.rawDistribution, serv.rawServer)
-            
-            let discord = {}
-            discord.largeImageKey = distro.rawDistribution.servers.descriprion
-            discord.largeImageText = distro.rawDistribution.servers.name
-            distro.rawDistribution.discord = discord
-            
-            let discord2 = {}
-            discord2.largeImageKey = serv.rawServer.name
-            discord2.largeImageText = serv.rawServer.id
-            serv.rawServer.discord = discord2
-            
-            // console.log(distro.rawDistribution.discord, serv.rawServer.discord)
+            // Init Discord Hook            
             if(distro.rawDistribution.discord != null && serv.rawServer.discord != null){
                 DiscordWrapper.initRPC(distro.rawDistribution.discord, serv.rawServer.discord)
                 hasRPC = true
