@@ -24,6 +24,16 @@
           },
           "subModules": [
             {
+              "id": "net.optifine:optifine:1.18.2_HD_U_H9_pre3@jar",
+              "name": "OptiFine",
+              "type": "Library",
+              "artifact": {
+                "size": 6230788,
+                "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/OptiFine-1.18.2_HD_U_H9_pre3.jar",
+                "MD5": "26a837b5fdd03ee935350cb0eb2bff2d"
+              }
+            },
+            {
               "id": "1.18.2-40.2.17",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
@@ -899,16 +909,6 @@
             "size": 206034,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/NaturesCompass-1.18.2-1.9.7-forge.jar",
             "MD5": "de767a701827dc2db20ca71ca5872049"
-          }
-        },
-        {
-          "id": "net.optifine:optifine:1.18.2_HD_U_H9_pre3@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6230788,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/OptiFine-1.18.2_HD_U_H9_pre3.jar",
-            "MD5": "26a837b5fdd03ee935350cb0eb2bff2d"
           }
         },
         {
