@@ -1,5 +1,10 @@
 {
   "version": "1.0.0",
+  "discord": {
+    "clientId": "1221892521928560784",
+    "smallImageText": "Mustela",
+    "smallImageKey": "pickaxe"
+  },
   "servers": [
     {
       "id": "MustelaV6-1.18.2",
@@ -7,8 +12,12 @@
       "description": "MustelaV6 Running Minecraft 1.18.2 (Forge v40.2.17)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
       "minecraftVersion": "1.18.2",
+      "discord": {
+        "shortId": "Mustela",
+        "largeImageText": "Играет на сервере",
+        "largeImageKey": "minecraft"
+      },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
@@ -23,16 +32,6 @@
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.2.17/lowcodelanguage-1.18.2-40.2.17.jar"
           },
           "subModules": [
-            {
-              "id": "net.optifine:optifine:1.18.2_HD_U_H9_pre3@jar",
-              "name": "OptiFine",
-              "type": "Library",
-              "artifact": {
-                "size": 6230788,
-                "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/OptiFine-1.18.2_HD_U_H9_pre3.jar",
-                "MD5": "26a837b5fdd03ee935350cb0eb2bff2d"
-              }
-            },
             {
               "id": "1.18.2-40.2.17",
               "name": "Minecraft Forge (version.json)",
@@ -417,8 +416,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 211987,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/AE2WTLib-11.6.3.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/AE2WTLib-11.6.3.jar",
             "MD5": "f282a2fb225370b086170722a6a9e38f"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -427,8 +429,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11050492,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/agape_space-1.0.12.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/agape_space-1.0.12.jar",
             "MD5": "02aff4ffbc59c7c8b0c4e49c4a5b860e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -437,8 +442,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5138814,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/appliedenergistics2-forge-11.7.6.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/appliedenergistics2-forge-11.7.6.jar",
             "MD5": "1e51e9e057aa002f1e745303092865f9"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -447,8 +455,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 552356,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/architectury-4.12.94-forge.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/architectury-4.12.94-forge.jar",
             "MD5": "2b4ce34ff2c095c723b8521ac7ecfd3e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -457,8 +468,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 42733,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/AutoRegLib-1.7-53.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/AutoRegLib-1.7-53.jar",
             "MD5": "b3fa32322a19c3d5f480efbff506dade"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -467,8 +481,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2164141,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/betteranimalsplus-1.18.2-11.0.10-forge.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/betteranimalsplus-1.18.2-11.0.10-forge.jar",
             "MD5": "1ac2983f2e1cdc4552bbcffb29506ecc"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -477,8 +494,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1140737,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/biggerreactors-1.18.2-0.6.0-beta.1.4.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/biggerreactors-1.18.2-0.6.0-beta.1.4.jar",
             "MD5": "b0d45f515e8ebe666028ef775785e930"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -487,8 +507,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 82794983,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/blue_skies-1.18.2-1.3.12.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/blue_skies-1.18.2-1.3.12.jar",
             "MD5": "2374b1d7c0008ac9ac697c4b41290a65"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -497,8 +520,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 312729,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/bonsaitrees3-3.1.0.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/bonsaitrees3-3.1.0.jar",
             "MD5": "2383b72f1f8f813a2c652db20ad3006d"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -507,8 +533,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11422451,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/Botania-1.18.2-435.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/Botania-1.18.2-435.jar",
             "MD5": "34ca65e3dbe64e7d344a887f860be112"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -517,8 +546,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1907652,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/BrandonsCore-1.18.2-3.1.10.283-universal.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/BrandonsCore-1.18.2-3.1.10.283-universal.jar",
             "MD5": "68cc58021ee0dd711696f18e7449b34e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -527,8 +559,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 37101,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/cat_jam-forge-mc1.18.2-1.2.1.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/cat_jam-forge-mc1.18.2-1.2.1.jar",
             "MD5": "570938ed5610ae9b78f9a4846319eae3"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -537,8 +572,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2028179,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/cc-tweaked-1.18.2-1.101.3.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/cc-tweaked-1.18.2-1.101.3.jar",
             "MD5": "b2771d5328d14672c237bf257936bad8"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -547,8 +585,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 269495,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/cccbridge-mc1.18.2-forge-v1.5.1.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/cccbridge-mc1.18.2-forge-v1.5.1.jar",
             "MD5": "da206934c5625c3dffb25c8a4ac78d6f"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -557,8 +598,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 503137,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/citadel-1.11.3-1.18.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/citadel-1.11.3-1.18.2.jar",
             "MD5": "fffef0755c3ac225d55b91357f2d9823"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -567,8 +611,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1160196,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/cloth-config-6.5.116-forge.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/cloth-config-6.5.116-forge.jar",
             "MD5": "7f53014ffd1417b3872f1e22f7aa117d"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -577,8 +624,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 990741,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/CodeChickenLib-1.18.2-4.1.4.488-universal.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/CodeChickenLib-1.18.2-4.1.4.488-universal.jar",
             "MD5": "c6bc237e934339c73d56b1bd1b99a227"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -587,8 +637,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1410834,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/cofh_core-1.18.2-9.2.3.47.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/cofh_core-1.18.2-9.2.3.47.jar",
             "MD5": "ea5e75a5aecfdbbfb266b2197d03a7cf"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -597,8 +650,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 277131,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/configured-2.0.1-1.18.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/configured-2.0.1-1.18.2.jar",
             "MD5": "48f1fff6652867bf66cc08fe5be42ae5"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -607,8 +663,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4994,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/Craftable%20Saddles%20[1.18%20All]-1.4.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/Craftable%20Saddles%20[1.18%20All]-1.4.jar",
             "MD5": "ce0d6499bf63c1e6f7c0da144dab7ada"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -617,8 +676,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2927301,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/CraftTweaker-forge-1.18.2-9.1.211.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/CraftTweaker-forge-1.18.2-9.1.211.jar",
             "MD5": "e5ff463bd86cbfe3638a0c2612767c3b"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -627,8 +689,24 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14906855,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/create-1.18.2-0.5.1.f.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/create-1.18.2-0.5.1.f.jar",
             "MD5": "a9fc645f2a4720f831794bd160b9bc0b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.talrey:createdeco:1.3.3-1.18.2@jar",
+          "name": "Create Deco",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3116834,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/createdeco-1.3.3-1.18.2.jar",
+            "MD5": "2e2116efbe27ea49d4780e2674f58b04"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -637,8 +715,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1032851,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/crittersandcompanions-1.18.2-1.0.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/crittersandcompanions-1.18.2-1.0.2.jar",
             "MD5": "b5cbc0137e03b2d62ddaea5eb4a5edce"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -647,8 +728,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 277670,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/curios-forge-1.18.2-5.0.9.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/curios-forge-1.18.2-5.0.9.2.jar",
             "MD5": "ff272c51d7d3a5cf4a109bde2cf3f8ee"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -657,8 +741,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1082400,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/DoggyTalents-1.18.2-2.5.11.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/DoggyTalents-1.18.2-2.5.11.jar",
             "MD5": "8264e89c3e2d0393356190146e19d055"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -667,8 +754,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5730327,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/Draconic-Evolution-1.18.2-3.0.31.531-universal.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/Draconic-Evolution-1.18.2-3.0.31.531-universal.jar",
             "MD5": "3c9bc3507ef66123b807089e4e8a139d"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -677,8 +767,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 529848,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/dragonmounts-1.18.2-1.1.5.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/dragonmounts-1.18.2-1.1.5.jar",
             "MD5": "a1fa6997a58dc02ef45210008e25b2d8"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -687,8 +780,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3336120,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/DynamicTrees-1.18.2-1.0.4.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/DynamicTrees-1.18.2-1.0.4.jar",
             "MD5": "b09ebfc1aadb9b358150f1e84861fe9a"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -697,8 +793,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3037488,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/extra-utilities-reborn-1.7.4-release.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/extra-utilities-reborn-1.7.4-release.jar",
             "MD5": "9dc818accdef93436393515f5dcfe726"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -707,8 +806,24 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14792,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar",
             "MD5": "affdfe5b304b5797ef61ebb814f41ec2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xfacthd.framedblocks:framedblocks:5.11.5@jar",
+          "name": "FramedBlocks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2014988,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/FramedBlocks-5.11.5.jar",
+            "MD5": "7e4a24931ace4d8a62adffea3bdf71e6"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -717,8 +832,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 840115,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/ftb-chunks-forge-1802.3.17-build.265.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/ftb-chunks-forge-1802.3.17-build.265.jar",
             "MD5": "fe883bb36624e893dbc8b2d5ae582007"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -727,8 +845,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 585874,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/ftb-library-forge-1802.3.11-build.177.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/ftb-library-forge-1802.3.11-build.177.jar",
             "MD5": "36056368c47099e5278f1d9a3a9521b1"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -737,8 +858,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 208342,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/ftb-teams-forge-1802.2.11-build.107.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/ftb-teams-forge-1802.2.11-build.107.jar",
             "MD5": "76d9f557ca35dc53a665213e49318d1b"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -747,8 +871,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 75679,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/ftb-ultimine-forge-1802.3.4-build.93.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/ftb-ultimine-forge-1802.3.4-build.93.jar",
             "MD5": "0d5c2c63c038a2921de3af45a7e6392e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -757,8 +884,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1954381,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/ftbbackups2-forge-1.18.2-1.0.23.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/ftbbackups2-forge-1.18.2-1.0.23.jar",
             "MD5": "cba9a2a0a7002ae482ec233e357d7803"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -767,8 +897,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2927832,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/geckolib-forge-1.18-3.0.57.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/geckolib-forge-1.18-3.0.57.jar",
             "MD5": "d491c30c6d9bd3f767bd545cbaf6502e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -777,8 +910,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 21531214,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/iceandfire-2.1.13-1.18.2-beta-3.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/iceandfire-2.1.13-1.18.2-beta-3.jar",
             "MD5": "b36ba9a566788f2602f529de4d2a0963"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -787,8 +923,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3069782,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/indreb-1.18.2-0.13.0.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/indreb-1.18.2-0.13.0.jar",
             "MD5": "c96b428ab700152da135d5b8ef36f0c9"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -797,8 +936,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 195648,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/integrated_api_forge-1.2.8+1.18.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/integrated_api_forge-1.2.8+1.18.2.jar",
             "MD5": "742223e356b80c44fe82024d4dfc256f"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -807,8 +949,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 292497,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/ironchest-1.18.2-13.2.11.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/ironchest-1.18.2-13.2.11.jar",
             "MD5": "48227046c0a4ac778b6028807ec3e19e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -817,8 +962,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6700878,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/isleofberk-1.2.0.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/isleofberk-1.2.0.jar",
             "MD5": "bb9ea066e191b134f7bb779d1a6fe131"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -827,8 +975,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 301358,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/Jade-1.18.2-forge-5.3.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/Jade-1.18.2-forge-5.3.2.jar",
             "MD5": "615d755442e7c936fd25cad5d29341fc"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -837,8 +988,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1085640,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/jei-1.18.2-forge-10.2.1.1005.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/jei-1.18.2-forge-10.2.1.1005.jar",
             "MD5": "2ca8e4f60a1f0ff78838a93f5fb8f697"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -847,8 +1001,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7083986,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/journeymap-1.18.2-5.9.7p1-forge.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/journeymap-1.18.2-5.9.7p1-forge.jar",
             "MD5": "ecdd6620bbc9731a39b902863e95df35"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -857,8 +1014,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 254745,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/JustEnoughResources-1.18.2-0.14.1.171.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/JustEnoughResources-1.18.2-0.14.1.171.jar",
             "MD5": "c955300291b6e722cb58cc4170cfd3b2"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -867,8 +1027,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 299918,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/libnonymous-2.1.0.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/libnonymous-2.1.0.jar",
             "MD5": "0510cb02c8019ec1ec42af081d14981c"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -877,8 +1040,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 651087,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/mcjtylib-1.18-6.0.20.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/mcjtylib-1.18-6.0.20.jar",
             "MD5": "6515af5a6ed1cf7feffd6fc63bb6c8f0"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -887,8 +1053,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11619466,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/Mekanism-1.18.2-10.2.5.465.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/Mekanism-1.18.2-10.2.5.465.jar",
             "MD5": "c2bedf6c55e11d0993291354b990f43b"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -897,8 +1066,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 76344,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/MouseTweaks-forge-mc1.18-2.21.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/MouseTweaks-forge-mc1.18-2.21.jar",
             "MD5": "3c10dff8a4d7c157184f2224db8639a2"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -907,8 +1079,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 206034,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/NaturesCompass-1.18.2-1.9.7-forge.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/NaturesCompass-1.18.2-1.9.7-forge.jar",
             "MD5": "de767a701827dc2db20ca71ca5872049"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -917,8 +1092,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 631415,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/Patchouli-1.18.2-71.1.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/Patchouli-1.18.2-71.1.jar",
             "MD5": "c16562c0c0095bc538c682517edc8b9c"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -927,8 +1105,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1120843,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/phosphophyllite-1.18.2-0.6.0-beta.1.6.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/phosphophyllite-1.18.2-0.6.0-beta.1.6.jar",
             "MD5": "71ba40d6493777947fdd3ddd587f070c"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -937,8 +1118,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 181336,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/player-animation-lib-forge-1.0.2+1.18.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/player-animation-lib-forge-1.0.2+1.18.jar",
             "MD5": "33e51d8320f9d5d8e37bc7f9479d6a3e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -947,8 +1131,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 163951,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/plushies-1.2-1.18.2-forge.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/plushies-1.2-1.18.2-forge.jar",
             "MD5": "d4a12337a0a8cfebf8c4767136766767"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -957,8 +1144,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2141927,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/ProjectE-1.18.2-PE1.0.1.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/ProjectE-1.18.2-PE1.0.1.jar",
             "MD5": "41c7e15c4bba8d748c7d3d11a128b3f2"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -967,8 +1157,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 147158,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/quartz-1.18.2-0.0.0-beta.1.4.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/quartz-1.18.2-0.0.0-beta.1.4.jar",
             "MD5": "cb3a1dbbad46bc09758b1c97dcff42b7"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -977,8 +1170,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 187937,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/realmrpg_dragon_wyrms_1.0.1_forge_1.18.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/realmrpg_dragon_wyrms_1.0.1_forge_1.18.2.jar",
             "MD5": "679a748a8020fe5a3ad21cd3748ab25c"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -987,8 +1183,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 409423,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/rftoolsbase-1.18-3.0.12.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/rftoolsbase-1.18-3.0.12.jar",
             "MD5": "3cf444f0000f88ed3948c006b7abca67"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -997,8 +1196,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 755983,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/rftoolsbuilder-1.18-4.1.4.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/rftoolsbuilder-1.18-4.1.4.jar",
             "MD5": "8dfca74211dfe3a6ef803828e8c12fe9"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1007,8 +1209,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 590714,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/rftoolscontrol-1.18-5.0.10.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/rftoolscontrol-1.18-5.0.10.jar",
             "MD5": "ade5f3c5a4807a5520ec11cbd1a13160"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1017,8 +1222,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 561937,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/rftoolspower-1.18-4.0.9.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/rftoolspower-1.18-4.0.9.jar",
             "MD5": "cf5b76ae155c8baf53fb13c6c6d2aa10"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1027,8 +1235,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 368826,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/rftoolsstorage-1.18-3.0.12.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/rftoolsstorage-1.18-3.0.12.jar",
             "MD5": "5187e9607028939004568744c4e0068a"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1037,8 +1248,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1364896,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/rftoolsutility-1.18-4.0.24.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/rftoolsutility-1.18-4.0.24.jar",
             "MD5": "a2b63c09c7448d200cbb70b1a95baf83"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1047,8 +1261,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 457644,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/selene-1.18.2-1.17.14.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/selene-1.18.2-1.17.14.jar",
             "MD5": "1eb66e2c9f68be2e8c6e74c08ddeefeb"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1057,8 +1274,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 156374,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/simpleshops-1.2.1.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/simpleshops-1.2.1.jar",
             "MD5": "e890ff9d34e76b52f1e8cf53d9440b81"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1067,8 +1287,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 470097,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/skinlayers3d-forge-1.6.2-mc1.18.2.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/skinlayers3d-forge-1.6.2-mc1.18.2.jar",
             "MD5": "376f252f5d4b4a2fb300268e5b218de3"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1077,8 +1300,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 672857,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/structure_gel-1.18.2-2.4.8.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/structure_gel-1.18.2-2.4.8.jar",
             "MD5": "f7d7ddcde687a41fcf006011be5d8c04"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1087,8 +1313,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10941555,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/swem-forge-1.18.2-1.4.6.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/swem-forge-1.18.2-1.4.6.jar",
             "MD5": "1bd394a5db9f0807f4d1069fc6c388aa"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1097,8 +1326,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 660191,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/thermal_cultivation-1.18.2-9.2.1.20.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/thermal_cultivation-1.18.2-9.2.1.20.jar",
             "MD5": "40d410d7f457379157c4adbf64660411"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1107,8 +1339,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 613615,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/thermal_dynamics-1.18.2-9.2.2.19.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/thermal_dynamics-1.18.2-9.2.2.19.jar",
             "MD5": "3831e28b3b7a20a82dafa7541d757d3a"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1117,8 +1352,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 607609,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/thermal_expansion-1.18.2-9.2.2.24.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/thermal_expansion-1.18.2-9.2.2.24.jar",
             "MD5": "32f69f6fe9256ee6e512a6168d94a9b6"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1127,8 +1365,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5097368,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/thermal_foundation-1.18.2-9.2.2.58.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/thermal_foundation-1.18.2-9.2.2.58.jar",
             "MD5": "fa1f3ddfa5dc6bd4c488fabd62480e51"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1137,8 +1378,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 224811,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/thermal_innovation-1.18.2-9.2.1.19.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/thermal_innovation-1.18.2-9.2.1.19.jar",
             "MD5": "602e6ce68c0110a4ac6994430a44e679"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1147,8 +1391,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 372378,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/thermal_integration-1.18.2-9.2.1.18.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/thermal_integration-1.18.2-9.2.1.18.jar",
             "MD5": "37708053f9d4af1e9cc6bf5e102e98cf"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1157,8 +1404,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 205437,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/thermal_locomotion-1.18.2-9.2.1.15.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/thermal_locomotion-1.18.2-9.2.1.15.jar",
             "MD5": "19ac0bbd6d107216c29b50d9fd7fb376"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1167,8 +1417,21 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 536720,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/required/tl_skin_cape_forge_1.18_1.18.2-1.25.jar",
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/tl_skin_cape_forge_1.18_1.18.2-1.25.jar",
             "MD5": "2b21114ff0508224d8bea15d9211e5f4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.library:OptiFine:1.18.2_HD_U_H9_pre3@jar",
+          "name": "OptiFine",
+          "type": "Library",
+          "artifact": {
+            "size": 6230788,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/libraries/OptiFine-1.18.2_HD_U_H9_pre3.jar",
+            "MD5": "26a837b5fdd03ee935350cb0eb2bff2d"
           }
         }
       ]
