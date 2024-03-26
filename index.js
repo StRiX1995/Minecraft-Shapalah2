@@ -18,9 +18,6 @@ LangLoader.setupLanguage()
 
 // Setup auto updater.
 function initAutoUpdater(event, data) {
-    console.log("event", event)
-    console.log("data", data)
-    console.log("autoUpdater", autoUpdater)
     if(data){
         autoUpdater.allowPrerelease = true
     } else {
@@ -32,7 +29,7 @@ function initAutoUpdater(event, data) {
         autoUpdater.autoInstallOnAppQuit = false
         autoUpdater.updateConfigPath = path.join(__dirname, 'dev-app-update.yml')
     }
-    autoUpdater.autoDownload = false
+
     if(process.platform === 'darwin'){
         autoUpdater.autoDownload = false
     }

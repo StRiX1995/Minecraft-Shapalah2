@@ -53,7 +53,6 @@ if(!isDev){
                     info.darwindownload = `https://github.com/dscalzi/HeliosLauncher/releases/download/v${info.version}/Helios-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                     showUpdateUI(info)
                 }
-                console.log(info)
                 populateSettingsUpdateInformation(info)
                 break
             case 'update-downloaded':
