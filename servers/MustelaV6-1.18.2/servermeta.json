@@ -1,15 +1,14 @@
 {
-  "$schema": "file:///D:/Documents/.code/mc/Nebula/testroot/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "MustelaV6 (Minecraft 1.18.2)",
     "description": "MustelaV6 Running Minecraft 1.18.2 (Forge v40.2.17)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "icon": "https://i.pinimg.com/originals/17/ea/04/17ea0401c6c62f7c66fc2e0667a5a127.jpg",
     "address": "localhost:25565",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "Mustela",
+      "largeImageText": "Играет на сервере",
+      "largeImageKey": "minecraft"
     },
     "mainServer": false,
     "autoconnect": false

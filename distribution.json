@@ -1050,6 +1050,19 @@
           }
         },
         {
+          "id": "org.anti_ad.mc:libipn:4.0.2@jar",
+          "name": "LibIPN",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 693852,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/libIPN-forge-1.18.2-4.0.2.jar",
+            "MD5": "c4147a93e6a955977363f67f51fa12b3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.davenonymous:libnonymous:2.1.0@jar",
           "name": "Libnonymous",
           "type": "ForgeMod",
