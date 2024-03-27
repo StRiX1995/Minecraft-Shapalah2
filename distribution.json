@@ -1037,6 +1037,19 @@
           }
         },
         {
+          "id": "generated.forgemod:kotlinforforge:3.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7365976,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/kotlinforforge-3.12.0-all.jar",
+            "MD5": "9026097ff419bd2d8a10f2e5755d4888"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.davenonymous:libnonymous:2.1.0@jar",
           "name": "Libnonymous",
           "type": "ForgeMod",
