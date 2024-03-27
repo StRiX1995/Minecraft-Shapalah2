@@ -10,8 +10,8 @@
       "id": "MustelaV6-1.18.2",
       "name": "MustelaV6 (Minecraft 1.18.2)",
       "description": "MustelaV6 Running Minecraft 1.18.2 (Forge v40.2.17)",
-      "icon": null,
-      "version": "1.0.0",
+      "icon": "https://i.pinimg.com/originals/17/ea/04/17ea0401c6c62f7c66fc2e0667a5a127.jpg",
+      "version": "1.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.18.2",
       "discord": {
@@ -1420,6 +1420,19 @@
             "size": 536720,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/tl_skin_cape_forge_1.18_1.18.2-1.25.jar",
             "MD5": "2b21114ff0508224d8bea15d9211e5f4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.10+1742f98@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5500682,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/worldedit-1_18_2.jar",
+            "MD5": "862cec57e297ec8f97f74745c2e8b905"
           },
           "required": {
             "value": false
