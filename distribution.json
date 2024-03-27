@@ -1,5 +1,6 @@
 {
   "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1221892521928560784",
     "smallImageText": "Mustela",
@@ -939,6 +940,19 @@
             "size": 195648,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/integrated_api_forge-1.2.8+1.18.2.jar",
             "MD5": "742223e356b80c44fe82024d4dfc256f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.10@jar",
+          "name": "Inventory Profiles Next",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1450359,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/InventoryProfilesNext-forge-1.18.2-1.10.10.jar",
+            "MD5": "679702776ceff12f3fabe785e261360b"
           },
           "required": {
             "value": false
