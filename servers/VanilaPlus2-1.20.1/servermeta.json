@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/Git/Minecraft%20launcher%20git/Nebula-master/Nebula-master/minecraft/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "VanilaPlus2 (Minecraft 1.20.1)",
+    "description": "VanilaPlus2 Running Minecraft 1.20.1 (Forge v47.2.18)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "47.2.18"
+  },
+  "untrackedFiles": []
+}
