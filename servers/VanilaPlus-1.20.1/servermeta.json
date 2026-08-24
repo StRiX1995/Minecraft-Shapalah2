@@ -5,7 +5,7 @@
     "name": "VanilaPlus (Minecraft 1.20.1)",
     "description": "VanilaPlus Running Minecraft 1.20.1 (Forge v47.4.0)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "address": "37.228.116.186:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
