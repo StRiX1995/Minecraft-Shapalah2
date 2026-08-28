@@ -1679,16 +1679,6 @@
           "required": {
             "value": false
           }
-        },
-        {
-          "id": "generated.library:OptiFine:1.18.2_HD_U_H9_pre3@jar",
-          "name": "OptiFine",
-          "type": "Library",
-          "artifact": {
-            "size": 6230788,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/Musleta-V7-1.18.2/libraries/OptiFine-1.18.2_HD_U_H9_pre3.jar",
-            "MD5": "26a837b5fdd03ee935350cb0eb2bff2d"
-          }
         }
       ]
     },
@@ -2364,6 +2354,19 @@
           "artifact": {
             "size": 4994,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/Craftable-Saddles-1.18.x-1.4.jar",
+            "MD5": "ce0d6499bf63c1e6f7c0da144dab7ada"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "at.xander.craftablesaddles:craftable_saddles:1.4@jar",
+          "name": "Craftable Saddles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4994,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/forgemods/optionalon/Craftable%20Saddles%20[1.18%20All]-1.4.jar",
             "MD5": "ce0d6499bf63c1e6f7c0da144dab7ada"
           },
           "required": {
@@ -3253,16 +3256,6 @@
           "required": {
             "value": false
           }
-        },
-        {
-          "id": "generated.library:OptiFine:1.18.2_HD_U_H9_pre3@jar",
-          "name": "OptiFine",
-          "type": "Library",
-          "artifact": {
-            "size": 6230788,
-            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/MustelaV6-1.18.2/libraries/OptiFine-1.18.2_HD_U_H9_pre3.jar",
-            "MD5": "26a837b5fdd03ee935350cb0eb2bff2d"
-          }
         }
       ]
     },
@@ -3271,7 +3264,7 @@
       "name": "VanilaPlus (Minecraft 1.20.1)",
       "description": "VanilaPlus Running Minecraft 1.20.1 (Forge v47.4.0)",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "37.228.116.186:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -3692,6 +3685,19 @@
           ]
         },
         {
+          "id": "appeng.core:ae2:15.4.10@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8495956,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/appliedenergistics2-forge-15.4.10.jar",
+            "MD5": "69e47ebd80184d34176cebeb6233a234"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "dev.architectury:architectury:9.2.14@jar",
           "name": "Architectury",
           "type": "ForgeMod",
@@ -3699,6 +3705,45 @@
             "size": 580602,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/architectury-9.2.14-forge.jar",
             "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.brandon3055:brandonscore:3.2.1.302@jar",
+          "name": "Brandon's Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1358270,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+            "MD5": "eab7f3e470ed31562bd3c6abb0fda6ce"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.3@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3185275,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/citadel-2.6.3-1.20.1.jar",
+            "MD5": "da80c09b998d829b6d580e5be76dcc7b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "codechicken.lib:codechickenlib:4.4.0.528@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1473536,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+            "MD5": "cd77cb33d92407fd0b5bf0b79d58af69"
           },
           "required": {
             "value": false
@@ -3718,6 +3763,19 @@
           }
         },
         {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "customskinloader:customskinloader:14.23@jar",
           "name": "CustomSkinLoader",
           "type": "ForgeMod",
@@ -3725,6 +3783,19 @@
             "size": 151566,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/customskinloader_forgev2-14.23.jar",
             "MD5": "5e0dbd9f5500d2772a4ca7f8d967036c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.brandon3055:draconicevolution:3.1.2.621@jar",
+          "name": "Draconic Evolution",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5934411,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/Draconic-Evolution-1.20.1-3.1.2.621-universal.jar",
+            "MD5": "3cc3a649bfe7cebd88b87d5aa9d25a83"
           },
           "required": {
             "value": false
@@ -3829,6 +3900,32 @@
             "size": 971220,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/fusion-1.3.14a-forge-mc1.20.1.jar",
             "MD5": "da8056cfe95879d6fd2bfc39e1da9000"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "guideme:guideme:20.1.15@jar",
+          "name": "GuideME",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9414827,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/guideme-20.1.15.jar",
+            "MD5": "0d892c2b4af52459ac6a639040374916"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "guideme:guideme:20.1.15@jar",
+          "name": "GuideME",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9414827,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/guideme-20.1.15%20(1).jar",
+            "MD5": "0d892c2b4af52459ac6a639040374916"
           },
           "required": {
             "value": false
@@ -3952,6 +4049,32 @@
           }
         },
         {
+          "id": "com.github.l_ender:cataclysm:3.31@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 73916104,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/L_Enders_Cataclysm-3.31.jar",
+            "MD5": "a296c93419f679f0da7100da6e6e35af"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:3.0@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101931,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/lionfishapi-3.0.jar",
+            "MD5": "76af08dd2f58d5557d13162d855f4cc9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.minecraftserverzone:mobhealthbar:2.3.0@jar",
           "name": "YDM's Mob Health Bar",
           "type": "ForgeMod",
@@ -3985,6 +4108,19 @@
             "size": 2851119,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
             "MD5": "1dd891634ac21591b5a692471f112572"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "moze_intel.projecte:projecte:1.0.1@jar",
+          "name": "ProjectE",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2257347,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/ProjectE-1.20.1-PE1.0.1.jar",
+            "MD5": "1d62009c904dbd367820ceeadaabefac"
           },
           "required": {
             "value": false
@@ -4541,6 +4677,16 @@
           "artifact": {
             "size": 7145205,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus2-1.20.1/forgemods/required/optifine_1.20.1_hd_u_i6.jar",
+            "MD5": "7a7982ac06b89dd8c1721ea53a33b768"
+          }
+        },
+        {
+          "id": "generated.library:optifine_1.20.1_hd_u_i6:0.0.0@jar",
+          "name": "optifine_1.20.1_hd_u_i6",
+          "type": "Library",
+          "artifact": {
+            "size": 7145205,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus2-1.20.1/libraries/optifine_1.20.1_hd_u_i6.jar",
             "MD5": "7a7982ac06b89dd8c1721ea53a33b768"
           }
         }
