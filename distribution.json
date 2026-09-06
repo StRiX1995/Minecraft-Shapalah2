@@ -3263,14 +3263,14 @@
       "id": "VanilaPlus-1.20.1",
       "name": "VanilaPlus (Minecraft 1.20.1)",
       "description": "VanilaPlus Running Minecraft 1.20.1 (Forge v47.4.0)",
-      "icon": null,
+      "icon": "https://i.pinimg.com/originals/17/ea/04/17ea0401c6c62f7c66fc2e0667a5a127.jpg",
       "version": "1.0.1",
       "address": "37.228.116.186:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Vanila+",
+        "largeImageText": "Играет на сервере",
+        "largeImageKey": "minecraft"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -3711,6 +3711,19 @@
           }
         },
         {
+          "id": "avaritia:avaritia:3.0.0@jar",
+          "name": "Avaritia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 729476,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/Avaritia-1.20.1-3.0.0-universal.jar",
+            "MD5": "d90493f3153c58ab46483b769a8814ed"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.brandon3055:brandonscore:3.2.1.302@jar",
           "name": "Brandon's Core",
           "type": "ForgeMod",
@@ -3763,6 +3776,71 @@
           }
         },
         {
+          "id": "com.copycatsplus:copycats:3.0.8+mc.1.20.1-forge@jar",
+          "name": "Create: Copycats+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2003578,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/copycats-3.0.8+mc.1.20.1-forge.jar",
+            "MD5": "c8b104debd963337f98b76eb2964b387"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.hlysine:create_connected:0.8.2-mc1.20.1@jar",
+          "name": "Create: Connected",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6145362,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/create_connected-0.8.2-mc1.20.1-all.jar",
+            "MD5": "5cd8b79086ed93d62cb43f75b38d36d7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.hlysine:create_connected:1.2.3-mc1.20.1@jar",
+          "name": "Create: Connected",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6791072,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/create_connected-1.2.3-mc1.20.1-all.jar",
+            "MD5": "2f0ef6fcdf142102c0f2963361a94624"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.getitemfromblock:create_tweaked_controllers:1.20.1-1.2.7@jar",
+          "name": "Create: Tweaked Controllers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 308064,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/create_tweaked_controllers-1.20.1-1.2.7.jar",
+            "MD5": "6d3ae679dada7b5f83bb0e279814f5f2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.8@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19170905,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/create-1.20.1-6.0.8.jar",
+            "MD5": "6ebc5c57638c1678359eac65b924c310"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
           "name": "Curios API",
           "type": "ForgeMod",
@@ -3796,6 +3874,19 @@
             "size": 5934411,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/Draconic-Evolution-1.20.1-3.1.2.621-universal.jar",
             "MD5": "3cc3a649bfe7cebd88b87d5aa9d25a83"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "edn.stratodonut:drivebywire:0.1.0@jar",
+          "name": "Drive-By-Wire Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 275713,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/drivebywire-1.20.1-0.1.0.jar",
+            "MD5": "85f0f266303a93ea26365f03af82e26e"
           },
           "required": {
             "value": false
@@ -4049,6 +4140,19 @@
           }
         },
         {
+          "id": "generated.forgemod:kotlinforforge:4.4.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7598082,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/kotlinforforge-4.4.0-all.jar",
+            "MD5": "de59abb1cfcf3d07874819e8b888bca0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.github.l_ender:cataclysm:3.31@jar",
           "name": "Cataclysm",
           "type": "ForgeMod",
@@ -4179,6 +4283,32 @@
           }
         },
         {
+          "id": "com.drmangotea:tfmg:1.0.2f@jar",
+          "name": "Create: The Factory Must Grow",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5343749,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/tfmg-1.0.2f.jar",
+            "MD5": "fd033fc4132f7cd26a0f30e6181d8fde"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "edn.stratodonut:trackwork:1.2.4@jar",
+          "name": "Trackwork Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 577556,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/trackwork-1.20.1-1.2.4.jar",
+            "MD5": "708eaf2b6f896986cbe51eaa1f950dcf"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "info.u_team.u_team_core:uteamcore:5.1.4.312@jar",
           "name": "U Team Core",
           "type": "ForgeMod",
@@ -4199,6 +4329,32 @@
             "size": 192170,
             "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/useful_backpacks-forge-1.20.1-2.0.1.124.jar",
             "MD5": "4207998daed36a652e4aca547acf0d26"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.valkyrienskies.mod:valkyrienskies:120-2.4.11@jar",
+          "name": "Valkyrienskies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27752937,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/valkyrienskies-120-2.4.11.jar",
+            "MD5": "253558e4bc0d0e776b20f475b7a39765"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.valkyrienskies.mod:valkyrienskies:2.3.0-beta.1@jar",
+          "name": "Valkyrien Skies 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10600582,
+            "url": "https://github.com/StRiX1995/Minecraft-Shapalah2/raw/Server-Mustela-V6.0/servers/VanilaPlus-1.20.1/forgemods/optionalon/valkyrienskies-1201-2.3.0-beta.1.jar",
+            "MD5": "21b366f0c2a598017cef336c2678deea"
           },
           "required": {
             "value": false
